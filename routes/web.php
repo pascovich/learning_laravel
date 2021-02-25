@@ -26,12 +26,12 @@ Route::get('/help', function(){
     //     'event4' => 'double'
     // ];
     // return view('pages/help',$event);
-    $events = [
+    $event = [
         'onclick',
         'mouseclick',
         'press',
         'double'
     ];
 
-    return view('pages/help',compact('events'));
+    return view('pages/help',compact('event'));
 });
