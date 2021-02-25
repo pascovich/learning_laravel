@@ -13,6 +13,6 @@
             @else
            {{"desole il te faux travailler"}}
         @endif
-        
+
     </body>
 </html>
